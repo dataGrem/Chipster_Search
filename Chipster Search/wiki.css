@@ -1,0 +1,66 @@
+body{
+  background-color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#wikiimg{
+   height: 250px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.form{
+  text-align: center;
+}
+#box{
+ width:40%;
+ font-size: 15px;
+ padding: 10px;
+ border-radius: 5px;
+}
+#search{
+  padding: 10px;
+  background-color: #4CAF50; /* Green */
+  border-radius: 5px;
+  color: white;
+  /* padding: 15px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#search:hover {background-color: #3e8e41}
+#heading{
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 32px;
+}
+#error{
+  text-align: center;
+  padding: 5px;
+  color: red;
+  font-size: large;
+} 
+
+#results h4{
+  text-align: center;
+  font-size:25px;
+  padding: 0%;
+}
+#results p{
+  font-size: 20px;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.cards{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style:groove;
+  border-color: black;
+  border-radius: 25px;
+  background-color:whitesmoke;
+    justify-content: space-between;
+}
